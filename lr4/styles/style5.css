@@ -1,0 +1,22 @@
+table {
+    border-collapse: collapse;
+    margin: 40px auto;
+}
+
+td {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+tr:nth-child(odd) td:nth-child(even),
+tr:nth-child(even) td:nth-child(odd) {
+    background: #b58863;
+}
+
+tr:nth-child(odd) td:nth-child(odd),
+tr:nth-child(even) td:nth-child(even) {
+    background: #f0d9b5;
+}

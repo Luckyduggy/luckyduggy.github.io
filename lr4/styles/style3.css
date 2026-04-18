@@ -1,0 +1,24 @@
+.fancy-title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.fancy-title::before,
+.fancy-title::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 3px;
+    background: black;
+}
+
+.fancy-title::before {
+    left: 0;
+}
+
+.fancy-title::after {
+    right: 0;
+}
